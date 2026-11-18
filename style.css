@@ -1270,3 +1270,10 @@ body {
         transform-origin: bottom center;
     }
 }
+
+@media (max-width: 600px) {
+    .flowers {
+        transform: scale(1);
+        transform-origin: bottom center;
+    }
+}
