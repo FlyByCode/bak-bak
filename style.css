@@ -1266,13 +1266,6 @@ body {
 
 @media (max-width: 600px) {
     .flowers {
-        transform: scale(1.5);
-        transform-origin: bottom center;
-    }
-}
-
-@media (max-width: 600px) {
-    .flowers {
         transform: scale(1);
         transform-origin: bottom center;
     }
@@ -1281,17 +1274,16 @@ body {
 
 .flower-message {
     position: fixed;
-    top: 38%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
     color: #a7ffee;
-    font-size: clamp(24px, 5vw, 38px);
-    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    font-family: cursive;
     text-shadow: 0 0 10px #23f0ff, 0 0 25px #23f0ff;
-    z-index: 1000;
-    animation: yazigel 2s ease-in-out;
+    z-index: 99999;
 }
 
 @keyframes yazigel {
