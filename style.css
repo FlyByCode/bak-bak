@@ -1262,3 +1262,11 @@ body {
   0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px #ffeb12); }
   50% { transform: scale(1.15); filter: drop-shadow(0 0 8px #ffeb12); }
 }
+
+
+@media (max-width: 600px) {
+    .flowers {
+        transform: scale(1.5);
+        transform-origin: bottom center;
+    }
+}
